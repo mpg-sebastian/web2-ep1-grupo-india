@@ -6,7 +6,8 @@
         <!-- FOR LOOP -->
         <div class="row g-0" *ngFor="let post of listPosts"
             (click)="selectPost(post)"
-        >
+            [routerLink]="['/blog-post']"
+            >
           <div class="col-md-4 d-flex justify-content-center align-items-center">
             <img
               src="https://dummyimage.com/300x200/f5f5f5/000000"

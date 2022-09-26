@@ -1,0 +1,162 @@
+<div id="container">
+    <div class="wrapper">
+        <div class="spacer">
+        <div class="card mb-3 col-md-8 col-sm-12">
+            <!-- START POST -->
+            
+                <div class="row g-0"> 
+                    <div class="col-md-10 d-flex align-items-center">
+                        <img src="http://adamthemes.com/demo/html/blackwhite/images/blog/post.jpg" class="img-fluid rounded-start" alt="">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Blog Post<br /><strong>Williputate Quatmen</strong></h3>
+                        <h6>30 May 2017, by AdamThemes</h6>
+                        <p>Morbi vulputate viverra urna nec posuere. Suspendisse ante tellus, commodo a sodales at, iaculis
+                            in augue. Nulla nec enim enim. Suspendisse non felis facilisis, ornare nulla eget, venenatis
+                            turpis. Proin sed erat tortor. Duis et nunc vitae nisl lobortis porttitor quis at ipsum.
+                            Pellentesque tempor accumsan commodo. Vestibulum leo lorem, ullamcorper sit amet varius at,
+                            dapibus et est.</p>
+                        <p>Curabitur fringilla nisl in ante rhoncus lacinia. Fusce et ante vel eros semper ornare ac blandit
+                            lacus. Suspendisse eget orci vel tellus porta cursus. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Donec non ultrices nunc. Phasellus tristique in velit eu gravida.</p>
+                        <p>Pellentesque tempor accumsan commodo. Vestibulum leo lorem, ullamcorper sit amet varius at,
+                            dapibus et est. Fusce et ante vel eros semper ornare ac blandit lacus.</p>
+                        <p>Curabitur fringilla nisl in ante rhoncus lacinia. Fusce et ante vel eros semper ornare ac blandit
+                            lacus. Suspendisse eget orci vel tellus porta cursus. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Donec non ultrices nunc. Phasellus tristique in velit eu gravida.</p>
+                        
+                    </div>
+                    <!-- Start Comments -->
+                    
+                    <div class="card mb-3 col-md-10 col-sm-12">
+                        <h4>5 Comments</h4>
+                        <div class="row g-0" *ngFor="let comment of listComments">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="http://adamthemes.com/demo/html/blackwhite/images/testimonial/testimonial02.png" class="user img-fluid rounded-start" alt={{comment.name}}/>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-email">{{comment.email}}</h6>
+                                    <h4 class="card-user">{{comment.name}}</h4>
+                                    <p class="card-text">{{comment.body}}</p>
+                                    <small class="text-muted"><i class="fa fa-mail-reply"></i> reply</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- End Comments -->
+                    <!-- Start Comment Form -->
+                    <h4>Leave Comment</h4>
+                    <form class="form-horizontal">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-group">
+                                    <textarea id="input" class="form-control" rows="7" required="required"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-2">
+                                <button type="button" class="btn btn-default buttons">SUBMIT</button>
+                            </div>
+                            <div class="col-sm-4"></div>
+                        </div>
+                    </form>
+                    <!-- End Comment Form -->
+                </div>
+            
+        </div>
+            <!-- END POST -->
+            <!-- Start Spacing -->
+            <!--
+                <div class="col-sm-1">
+                <div class="minheight1 vl1"></div>
+            </div>
+            -->
+            <!-- End Spacing -->
+            <!-- START ASIDE -->
+            <div class="col-sm-3 border-start p-4 aside">
+                <div class="minheight1">
+                    <div class="box_inner">
+                        <h4><strong>About</strong></h4>
+                        <p class="news1 txt1">
+                            Wurabitur fringilla nisl in ante rhoncus lacinia. Fusce et ante
+                            vel eros semper ornare ac blandit lacus. Eget orci velte lus porta
+                            cursus.
+                        </p>
+
+                        <h4><strong>Categories</strong></h4>
+                        <ul class="ul1">
+                            <li>
+                                <a href="#" class="text-secondary">
+                                    <i class="fa fa-angle-right"></i> Justo Consequat</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary">
+                                    <i class="fa fa-angle-right"></i> Fusce Etante Vel</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary">
+                                    <i class="fa fa-angle-right"></i> Accumsan Niseros</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary">
+                                    <i class="fa fa-angle-right"></i> Erosvel Sagittis</a>
+                            </li>
+                        </ul>
+
+                        <h4><strong>Latest News</strong></h4>
+                        <a href="post.html#" class="news1 clearfix">
+                            <div class="txt1">Williputate quamlast</div>
+                            <div class="txt2">
+                                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+                            </div>
+                        </a>
+                        <a href="post.html#" class="news1 clearfix">
+                            <div class="txt1">Fusce et ante</div>
+                            <div class="txt2">
+                                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+                            </div>
+                        </a>
+                        <a href="post.html#" class="news1 clearfix">
+                            <div class="txt1">Pellentesque tempor</div>
+                            <div class="txt2">
+                                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+                            </div>
+                        </a>
+
+                        <h4><strong>Tags, Keywords</strong></h4>
+                        <ul class="tags clearfix">
+                            <li><a href="#">Agency</a></li>
+                            <li><a href="#">Themes</a></li>
+                            <li><a href="#">Pesponsive</a></li>
+                            <li><a href="#">Bootstrap</a></li>
+                            <li><a href="#">Graphic</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Architechure</a></li>
+                            <li><a href="#">Art</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END ASIDE -->
+        
+        </div>
+    </div>
+</div>
