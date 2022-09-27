@@ -1,0 +1,148 @@
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+
+}
+
+* { box-sizing: border-box; }
+
+
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+    height: 400px;/*borrar y poner una imagen*/
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.slide:target {
+	animation-name: none;
+	position: relative;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 30;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+
+	.caption {
+		font-size: 96px;
+		bottom: 96px;
+		right: 50px;
+	}
+}
+
+
+/*cards*/
+.div-cards{
+	justify-content: center;
+}
+
+.card-all{
+	border: 1px solid  rgba(51, 51, 51, 0.558)k;
+}
+.card-all h2  small{
+	text-align: justify;
+}
+.card-bofy{
+    border-bottom: 1px  solid rgba(51, 51, 51, 0.558);
+}
+
+
+/*cartel*/
+
+.cartel{
+    height: 500px;/*borrar y poner una imagen*/
+    margin: auto;
+    border: 1px solid #333;/*borrar cuando este la imagen*/
+}
+.letras{
+    margin: auto;
+}
+
+/*contenido*/
+.contenido p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+/*user*/
+.user .banner{
+
+}

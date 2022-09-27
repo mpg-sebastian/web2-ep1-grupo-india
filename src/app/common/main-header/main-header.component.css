@@ -1,0 +1,52 @@
+nav.barra{
+
+}
+.barra {
+  position: fixed;
+  position: absolute;
+  background-color: white;
+  margin-left: -13px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.255);
+  padding: 0.0rem 1rem;
+}
+.tittle {
+  color: #333;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.div-ul {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+.list {
+  display: flex;
+}
+.li-btn {
+  padding: 20px;
+  margin: 0px 50px;
+  list-style: none;
+}
+.btn-link {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn-link:hover {
+  border-block-end: 1px solid #333;
+}
+
+/*Desaparece el nav*/
+@media screen and (max-width: 800px) and (min-width: 100px) {
+  nav {
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+  }
+}
+

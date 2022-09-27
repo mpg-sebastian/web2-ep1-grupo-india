@@ -1,0 +1,112 @@
+<!--Slider-->
+<div class="wrapper">
+    <div class="slider" id="slider">
+        <ul class="slides">
+            <li class="slide" id="slide1">
+                <a href="#">
+                    <img src="" alt="photo 1">
+                </a>
+            </li>
+            <li class="slide" id="slide2">
+                <a href="#">
+                    <img src="" alt="photo 2">
+                </a>
+            </li>
+            <li class="slide" id="slide3">
+                <a href="#">
+                    <img src="" alt="photo 3">
+                </a>
+            </li>
+        </ul>
+        <ul class="slider-controler">
+            <li><a href="#slide1">&bullet;</a></li>
+            <li><a href="#slide2">&bullet;</a></li>
+            <li><a href="#slide3">&bullet;</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--cards-->
+<br>
+<div class="tittle-cards">
+    <h1>Klk Grupo India</h1>
+</div>
+<br>
+
+<div class="row justify-content-between d-flex">
+    <div class="col-xl-3  div-cards-2 col-3" *ngFor="let item of listaUsuarios; let i=index">
+        <div class="" *ngIf="i<3">
+            <div class="banner  card-all shadow-lg p-3 mb-5 bg-white">
+                <img src="" alt="..." class="card-img-top">
+                <div class="card-bofy ">
+                    <h2>{{item.name}}</h2>
+                    <h6>{{item.email}}</h6>
+                </div>
+                <h6>phone:{{item.phone}}</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--CARTEL-->
+
+<div class="cartel d-flex shadow-lg p-3 mb-5 bg-white">
+    <div class="letras ">
+        <h3 class="text-center">We Are</h3>
+        <h1 class="text-center">BLACK WHITE</h1>
+        <h4 class="text-center">we are working for your brand shine</h4>
+    </div>
+</div>
+
+
+<!--CONTENIDO ETC-->
+<div class="contenido d-flex">
+    <div class="c-titulos">
+        <h2 class="c-h2 text-center">We Are Agency</h2>
+        <h1 class="c-h1 text-center">About Us</h1>
+        <br>
+        <p class="parra ">Morbi vulputate viverra urna nec posuere. Suspendisse ante tellus, commodo a sodales at,
+            iaculis in augue. Nulla nec enim enim. Suspendisse non felis facilisis, ornare nulla eget, venenatis turpis.
+            Proin sed erat tortor. Duis et nunc vitae nisl lobortis porttitor quis at ipsum. Pellentesque tempor
+            accumsan commodo. Vestibulum leo lorem, ullamcorper sit amet varius at, dapibus et est. Curabitur fringilla
+            nisl in ante rhoncus lacinia. Fusce et ante vel eros semper ornare ac blandit lacus. Suspendisse eget orci
+            vel tellus porta cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ultrices nunc.
+            Phasellus tristique in velit eu gravida.</p>
+    </div>
+</div>
+
+<br><br>
+<!--user-->
+<div class="row justify-content-between d-flex">
+    <div class="col-xl-3  div-cards-2 col-3" *ngFor="let item of listaUsuarios; let i=index">
+        <div class="" *ngIf="i<6">
+            <div class="banner  card-all shadow-lg p-3 mb-5 bg-white">
+                <img src="" alt="..." class="card-img-top">
+                <div class="card-bofy ">
+                    <h2>{{item.name}}</h2>
+                    <h6>{{item.email}}</h6>
+                </div>
+                <h6>phone:{{item.phone}}</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--cartel 2-->
+<div class="cartel d-flex shadow-lg p-3 mb-5 bg-white">
+    <div class="letras ">
+        <h3 class="text-center">We Are</h3>
+        <h1 class="text-center">BLACK WHITE</h1>
+        <h4 class="text-center">we are working for your brand shine</h4>
+    </div>
+</div>
+
+<div class="contenido d-flex">
+    <div class="letras">
+        <h3 class="text-center">Take a Look at</h3>
+        <h1 class="text-center">Some of Our Works</h1>
+        <br>
+
+    </div>
+</div>
