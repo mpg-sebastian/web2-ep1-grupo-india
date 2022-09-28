@@ -1,6 +1,7 @@
-h3{
+h2{
     color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 50px;
 }
 p{
     color: black;
@@ -10,10 +11,15 @@ h1{
     color: white;
     size: 200px;
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 70px;
 }
 h5{
     color: black;
     font-family: 'Raleway', sans-serif;
 
+}
+h4{
+    color: white;
+    size: 200px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 70px;
 }

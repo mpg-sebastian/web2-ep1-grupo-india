@@ -1,0 +1,21 @@
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.marco{
+    float: right;
+}
+#text{
+    color: grey;
+}
+h6{
+    color: gray;
+}
+section{
+    border-bottom: 70px;
+}

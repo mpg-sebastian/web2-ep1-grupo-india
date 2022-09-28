@@ -1,0 +1,19 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+#botones{
+    margin-left: 530px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
