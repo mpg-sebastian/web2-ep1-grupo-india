@@ -8,9 +8,9 @@
           </button>
           <div class="botons collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
             <div class="navbar-nav text-center ">
-              <a class="btn-link nav-link" href="#">Home</a>
+              <a class="btn-link nav-link" [routerLink]="['/']">Home</a>
 
-              <a href="" class="btn-link nav-link">Services</a>
+              <a href="#whatwedo" class="btn-link nav-link">Services</a>
 
               <a href="" class="btn-link nav-link ">About Us</a>
 
@@ -26,8 +26,8 @@
                 
                 <a href=""class="nav-link dropdown-toggle" href="#" type="button" data-bs-toggle="collapse"  data-bs-target="#menu" aria-controls="menu" aria-expanded="false">Blog</a>
                 <ul class="dropdown-menu" id="menu">
-                    <li><a href="" class=" blog text-center">Blog Page</a></li>
-                    <li><a href="" class=" blog text-center">Blog Post</a></li>
+                    <li><a href="" class=" blog text-center" [routerLink]="['/blog-page']">Blog Page</a></li>
+                    <li><a href="" class=" blog text-center" [routerLink]="['/blog-post']">Blog Post</a></li>
                 </ul>
              </li>
             </div>

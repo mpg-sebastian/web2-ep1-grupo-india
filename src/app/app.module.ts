@@ -12,6 +12,8 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { WhatwedoComponent } from './home/whatwedo/whatwedo.component';
 import { BlackwhiteComponent } from './home/blackwhite/blackwhite.component';
 import { MainHeaderComponent } from './common/main-header/main-header.component';
+import { BlogPageComponent } from './blog/blog-page/blog-page.component';
+import { BlogPostComponent } from './blog/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { MainHeaderComponent } from './common/main-header/main-header.component'
     CarouselComponent,
     InicioComponent,
     WhatwedoComponent,
-    BlackwhiteComponent
+    BlackwhiteComponent,
+    BlogPageComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,103 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="spacer">
+      <!-- START COMPONENT -->
+      <div class="card mb-3 col-md-8 col-sm-12">
+        <!-- FOR LOOP -->
+        <div class="row g-0" *ngFor="let post of listPosts"
+            (click)="selectPost(post)"
+            [routerLink]="['/blog-post']"
+            >
+          <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <img
+              src="https://dummyimage.com/300x200/f5f5f5/000000"
+              class="img-fluid rounded-start"
+              alt={{post.title}}
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{post.title}}</h5>
+              <p class="card-text">{{post.body}}</p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END COMPONENT -->
+      <!-- START ASIDE -->
+      <div class="col-sm-3 border-start p-4 aside">
+        <div class="minheight1">
+          <div class="box_inner">
+            <h4><strong>About</strong></h4>
+            <p class="news1 txt1">
+              Wurabitur fringilla nisl in ante rhoncus lacinia. Fusce et ante
+              vel eros semper ornare ac blandit lacus. Eget orci velte lus porta
+              cursus.
+            </p>
+
+            <h4><strong>Categories</strong></h4>
+            <ul class="ul1">
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fa fa-angle-right"></i> Justo Consequat</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fa fa-angle-right"></i> Fusce Etante Vel</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fa fa-angle-right"></i> Accumsan Niseros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary"> 
+                  <i class="fa fa-angle-right"></i> Erosvel Sagittis</a
+                >
+              </li>
+            </ul>
+
+            <h4><strong>Latest News</strong></h4>
+            <a href="post.html#" class="news1 clearfix">
+              <div class="txt1">Williputate quamlast</div>
+              <div class="txt2">
+                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+              </div>
+            </a>
+            <a href="post.html#" class="news1 clearfix">
+              <div class="txt1">Fusce et ante</div>
+              <div class="txt2">
+                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+              </div>
+            </a>
+            <a href="post.html#" class="news1 clearfix">
+              <div class="txt1">Pellentesque tempor</div>
+              <div class="txt2">
+                Quisque accumsan nisl eros, vel sagittis justo consequat in.
+              </div>
+            </a>
+
+            <h4><strong>Tags, Keywords</strong></h4>
+            <ul class="tags clearfix">
+              <li><a href="#">Agency</a></li>
+              <li><a href="#">Themes</a></li>
+              <li><a href="#">Pesponsive</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Graphic</a></li>
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Architechure</a></li>
+              <li><a href="#">Art</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END ASIDE -->
+    </div>
+  </div>
+</div>
