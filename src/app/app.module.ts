@@ -1,21 +1,27 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { HttpClientModule} from '@angular/common/http';
+
 import { AppRoutingModule } from './app-routing.module';
 
-import {HttpClientModule} from '@angular/common/http';
-
 import { AppComponent } from './app.component';
-
 import { MainFooterComponent } from './common/main-footer/main-footer.component';
-import { MainNavComponent } from './common/main-nav/main-nav.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { WhatwedoComponent } from './home/whatwedo/whatwedo.component';
+import { BlackwhiteComponent } from './home/blackwhite/blackwhite.component';
 import { MainHeaderComponent } from './common/main-header/main-header.component';
-import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
+    MainHeaderComponent,
     AppComponent,
     MainFooterComponent,
-    MainNavComponent,
-    MainHeaderComponent
+    CarouselComponent,
+    InicioComponent,
+    WhatwedoComponent,
+    BlackwhiteComponent
   ],
   imports: [
     BrowserModule,

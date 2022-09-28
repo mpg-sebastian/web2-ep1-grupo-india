@@ -1,0 +1,8 @@
+#main-footer{
+    background-color: var(--footer);
+    color: black;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 13px;
+    
+}
