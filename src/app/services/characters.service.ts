@@ -9,7 +9,7 @@ export class CharactersService {
   constructor(private http: HttpClient) { }
 
   selectCharacters(){
-    const ruta = "https://jsonplaceholder.typicode.com/posts/1/comments";
+    const ruta = "";
     return this.http.get(ruta);
   }
 }

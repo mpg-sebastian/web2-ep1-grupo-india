@@ -18,6 +18,7 @@ export class BlogPageComponent implements OnInit {
       (res) => {
         // console.log("data: ", res);
         this.listPosts = JSON.parse(JSON.stringify(res));
+        console.log("data: ", res);
       }
     )
   }

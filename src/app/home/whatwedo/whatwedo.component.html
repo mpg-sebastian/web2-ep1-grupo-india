@@ -14,34 +14,21 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Mouse</h5>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                </div>
-              </div>
-            </div>
               
-              <div class="col" alt="...">
+            <div *ngFor="let item of listaUsuarios; let i=index">
+              <div class="col" alt="..." *ngIf="i<3 ">
                 <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
+                    <h5 class="card-title">{{item.username}}</h5>
+                    <p class="card-text">
+
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                  </div>
-                </div>
-              </div>
+
+            </div>
         </div>
         <div class="carousel-caption d-none d-md-block">
 
@@ -50,34 +37,20 @@
       
       <div class="carousel-item">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
+          <div *ngFor="let item of listaUsuarios; let i=index">
+            <div class="col" alt="..." *ngIf="i<3">
+              <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Mouse</h5>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
+                  <h5 class="card-title">{{item.username}}</h5>
+                  <p class="card-text">
+
+                  </p>
                 </div>
               </div>
             </div>
-              
-              <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                  </div>
-                </div>
-              </div>
+          </div>
+
         </div>
         <div class="carousel-caption d-none d-md-block">
 
@@ -86,35 +59,19 @@
 
       <div class="carousel-item">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
+          <div *ngFor="let item of listaUsuarios; let i=index">
+            <div class="col" alt="..." *ngIf="i<3">
+              <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Mouse</h5>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
+                  <h5 class="card-title">{{item.username}}</h5>
+                  <p class="card-text">
+
+                  </p>
                 </div>
               </div>
             </div>
-
-            <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col" alt="...">
-                <img src="assets/imagen4.jpg" class="card-img-top" alt="...">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis atque asperiores odit vitae at nesciunt placeat eligendi tempore in, commodi nihil saepe nemo! Velit quas nobis ad doloribus modi?</p>
-                  </div>
-                </div>
-              </div>
+          </div>
         </div>
         <div class="carousel-caption d-none d-md-block">
 

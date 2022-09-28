@@ -5,6 +5,7 @@ import { HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
+
 import { AppComponent } from './app.component';
 import { MainFooterComponent } from './common/main-footer/main-footer.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
