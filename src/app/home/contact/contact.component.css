@@ -3,12 +3,11 @@ section{
     text-align: center;
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: url('src/assets/imagen6.jpg');
+    background-image: url('src/assets/imagen7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 div{
     color: white;
-    font-weight: bolder;
 }

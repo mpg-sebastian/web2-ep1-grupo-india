@@ -1,0 +1,20 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+div{
+    text-align: center;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+h6{
+    color: gray;
+}

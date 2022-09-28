@@ -1,0 +1,37 @@
+section{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('src/assets/imagen6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+div{
+    color: white;
+    font-weight: bolder;
+}
+
+li{
+    display: inline-block;
+    margin: 0px 3px 3px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 72px;
+    height: 72px;
+}
+a{
+    display: block;
+    font-size: 36px;
+    color: white;
+}
+i{
+    margin-top: 18px;
+}
+.fa{
+    display: inline-block;
+    font-size: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}

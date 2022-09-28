@@ -2,5 +2,8 @@ section{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
+}
+div{
+    font-weight: bolder;
 }
